@@ -1,5 +1,20 @@
-/* Smartphone */
 
+html{
+    scroll-behavior: smooth;
+}
+/* Smartphone */
+body{
+    color: #444444;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bi{
+    font-size: 72px;
+}
+a{
+    text-decoration: none;
+    color: #444444;
+}
+.text-
 
 /* Tablet */
 @media(min-width: 768px){
