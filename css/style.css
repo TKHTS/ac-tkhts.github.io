@@ -38,6 +38,10 @@ li {
 }
 
 li a:hover {
+    color: #ffc107;
+}
+
+li a:active {
     color: #198754;
 }
 
