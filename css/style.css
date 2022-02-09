@@ -32,6 +32,9 @@ li {
     margin: 12px;
     padding-top: 8px;
 }
+li a:hover{
+    color: #198754;
+}
 
 header {
     width: 100%;
