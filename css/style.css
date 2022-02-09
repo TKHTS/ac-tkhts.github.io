@@ -16,6 +16,7 @@ body {
 h1 {
     font-weight: bold;
     font-family: Impact;
+    letter-spacing: 1rem;
 }
 
 a {
@@ -75,6 +76,32 @@ nav {
     right: 20px;
     top: 25px;
     z-index: 99;
+}
+
+h1::first-letter {
+    color: #ffc107;
+    font-size: 3rem;
+}
+
+.sentence1 {
+    font-family: Impact;
+    letter-spacing: 0.1rem;
+}
+
+.sentence1::first-letter {
+    color: #0d6efd;
+    font-size: 2.5rem;
+}
+
+.sentence2::first-letter {
+    color: #198754;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.sentence2 {
+    font-family: Impact;
+    letter-spacing: 0.1rem;
 }
 
 #menu-btn-check:checked~#menus {
