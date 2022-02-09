@@ -29,7 +29,6 @@ li {
     padding-top: 8px;
 }
 
-
 header {
     width: 100%;
     padding: 12px 24px;
@@ -103,6 +102,12 @@ nav {
 .text-default{
     color: #444444;
 }
+@media(min-width: 768px){
+    .sp-menu {
+        right: 50px;
+    }
+}
+
 /* Desktop */
 @media(min-width: 1024px){
     .sp-menu{
