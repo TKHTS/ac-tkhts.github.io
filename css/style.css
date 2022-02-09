@@ -109,6 +109,7 @@ nav {
 .text-default{
     color: #444444;
 }
+
 /* Tablet */
 @media(min-width: 768px){
     .sp-menu {
