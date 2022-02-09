@@ -19,7 +19,7 @@ a{
 ul {
     list-style: none;
     float: right;
-    margin-right: 48px;
+    margin-right: 0;
     padding: 12px;
 }
 
@@ -81,9 +81,6 @@ nav {
 .menu-sp-ul {
     background-color: rgba(0, 0, 0, 0.527);
     width: 100%;
-}
-ul {
-    margin-right: 0;
 }
 .menu-sp-ul li {
     margin: 4px;
