@@ -1,21 +1,24 @@
-
-
 /* Smartphone */
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     color: #444444;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.bi{
+
+.bi {
     font-size: 72px;
 }
-h1{
+
+h1 {
     font-weight: bold;
-    font-family:Impact;
+    font-family: Impact;
 }
-a{
+
+a {
     text-decoration: none;
     color: #444444;
 }
@@ -32,7 +35,8 @@ li {
     margin: 12px;
     padding-top: 8px;
 }
-li a:hover{
+
+li a:hover {
     color: #198754;
 }
 
@@ -65,31 +69,39 @@ nav {
 .header-menu {
     display: none;
 }
+
 .sp-menu {
     position: absolute;
     right: 20px;
     top: 25px;
     z-index: 99;
 }
+
 #menu-btn-check:checked~#menus {
     display: block;
 }
+
 #menu-btn-check:checked~.sp-menu {
     transition: transform 0.4s 0s ease-in-out;
 }
+
 .sp-menu::before {
     content: url("../img/menu-icon.png");
 }
+
 #menus {
     text-align: center;
 }
+
 .menu-sp-ul {
     background-color: rgba(0, 0, 0, 0.527);
     width: 100%;
 }
+
 .menu-sp-ul li {
     margin: 4px;
 }
+
 .menu-sp-ul li a {
     display: list-item;
     padding: 4px;
@@ -99,6 +111,7 @@ nav {
     line-height: 1;
     padding: 0 0 8px 0
 }
+
 #menus {
     display: none;
 }
@@ -106,23 +119,28 @@ nav {
 #menu-btn-check {
     display: none;
 }
-.text-default{
+
+.text-default {
     color: #444444;
 }
 
+
 /* Tablet */
-@media(min-width: 768px){
+
+@media(min-width: 768px) {
     .sp-menu {
         right: 50px;
     }
 }
 
+
 /* Desktop */
-@media(min-width: 1024px){
-    .sp-menu{
-        display:none;
+
+@media(min-width: 1024px) {
+    .sp-menu {
+        display: none;
     }
-    .header-menu{
+    .header-menu {
         display: inline;
     }
 }
