@@ -1,4 +1,5 @@
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -15,12 +16,99 @@ a{
     color: #444444;
 }
 
-/* Tablet */
-@media(min-width: 768px){
-
+ul {
+    list-style: none;
+    float: right;
+    margin-right: 48px;
+    padding: 12px;
 }
 
-/* Desktop */
-@media(min-width: 992px){
+li {
+    display: inline;
+    margin: 12px;
+    padding-top: 8px;
+}
 
+
+header {
+    width: 100%;
+    padding: 12px 24px;
+    background: rgb(255, 255, 255, 0.7);
+}
+
+nav {
+    font-size: 20px;
+}
+
+.header-box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    color: #444444;
+}
+
+.header-box a {
+    color: #444444;
+}
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+}
+
+
+.header-menu {
+    display: none;
+}
+.sp-menu {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    z-index: 99;
+}
+#menu-btn-check:checked~#menus {
+    display: block;
+}
+#menu-btn-check:checked~.sp-menu {
+    transition: transform 0.4s 0s ease-in-out;
+}
+.sp-menu::before {
+    content: url("../img/menu-icon.png");
+}
+#menus {
+    text-align: center;
+}
+.menu-sp-ul {
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 100%;
+}
+ul {
+    margin-right: 0;
+}
+.menu-sp-ul li {
+    margin: 4px;
+}
+.menu-sp-ul li a {
+    display: list-item;
+    padding: 4px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    line-height: 1;
+    padding: 0 0 8px 0
+}
+#menus {
+    display: none;
+}
+
+#menu-btn-check {
+    display: none;
+}
+@media(min-width: 1024px){
+    .sp-menu{
+        display:none;
+    }
+    .header-menu{
+        display: inline;
+    }
 }
